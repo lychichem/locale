@@ -126,7 +126,7 @@ itembox-button-options =
 itembox-button-merge =
     .aria-label = 选择 { $field } 区域的版本
 
-create-parent-intro = 输入一个 DOI, ISBN, PMID, arXiv ID 或 ADS Bibcode 来识别此文件：
+create-parent-intro = 输入一个 DOI, ISBN, PMID, arXiv ID 或 ADS 条形码来识别此文件：
 
 reader-use-dark-mode-for-content =
     .label = 为内容启用暗色主题
