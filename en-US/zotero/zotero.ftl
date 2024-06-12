@@ -9,6 +9,7 @@ general-remove = Remove
 general-add = Add
 general-remind-me-later = Remind Me Later
 general-choose-file = Choose File…
+general-open-settings = Open Settings
 
 menu-file-show-in-finder =
     .label = Show in Finder
@@ -124,6 +125,8 @@ itembox-button-options =
     .tooltiptext = Open Context Menu
 itembox-button-merge =
     .aria-label = Select version of { $field } field
+
+create-parent-intro = Enter a DOI, ISBN, PMID, arXiv ID, or ADS Bibcode to identify this file:
 
 reader-use-dark-mode-for-content =
     .label = Use Dark Mode for Content
@@ -521,6 +524,7 @@ item-pane-header-bibEntry =
 item-pane-header-more-options =
     .label = More Options
 
+locate-library-lookup-no-resolver = You must choose a resolver from the { $pane } pane of the { -app-name } settings.
 
 architecture-win32-warning-message = { -app-name } is running in 32-bit mode on a 64-bit version of Windows. { -app-name } will run more efficiently in 64-bit mode.
 architecture-warning-action = Download 64-bit { -app-name }

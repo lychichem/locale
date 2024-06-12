@@ -9,6 +9,7 @@ general-remove = 移除
 general-add = 添加
 general-remind-me-later = 稍后提醒我
 general-choose-file = 选择文件…
+general-open-settings = 打开设置
 
 menu-file-show-in-finder =
     .label = 在Finder中显示文件
@@ -124,6 +125,8 @@ itembox-button-options =
     .tooltiptext = 打开上下文菜单
 itembox-button-merge =
     .aria-label = 选择 { $field } 区域的版本
+
+create-parent-intro = 输入一个 DOI, ISBN, PMID, arXiv ID 或 ADS Bibcode 来识别此文件：
 
 reader-use-dark-mode-for-content =
     .label = 为内容启用暗色主题

@@ -38,14 +38,24 @@ preferences-item-pane-header-style = Header Citation Style:
 preferences-item-pane-header-locale = Header Language:
 preferences-item-pane-header-missing-style = Missing style: <{ $shortName }>
 
-preferences-advanced-language-and-region-title = Language and Region
-preferences-advanced-enable-bidi-ui =
-    .label = Enable bidirectional text editing utilities
+preferences-locate-library-lookup-intro = Library Lookup can find a resource online using your library’s OpenURL resolver.
+preferences-locate-resolver = Resolver
+preferences-locate-base-url = Base URL
+
+preferences-quickCopy-minus =
+    .aria-label = { general-minus }
+    .label = { $label }
 preferences-quickCopy-plus =
     .aria-label = { general-add }
     .label = { $label }
-preferences-quickCopy-minus =
-    .aria-label = { general-remove }
+
+preferences-styleManager-delete-button =
+    .tooltiptext = Delete the selected style
     .label = { $label }
-preferences-locate-resolver = Resolver
-preferences-locate-base-url = Base URL
+preferences-styleManager-add-button =
+    .tooltiptext = Add a style from a file
+    .label = { $label }
+
+preferences-advanced-language-and-region-title = Language and Region
+preferences-advanced-enable-bidi-ui =
+    .label = Enable bidirectional text editing utilities

@@ -38,14 +38,24 @@ preferences-item-pane-header-style = 引用样式标题:
 preferences-item-pane-header-locale = 语言标题:
 preferences-item-pane-header-missing-style = 缺少样式： <{ $shortName }>
 
-preferences-advanced-language-and-region-title = 语言和区域
-preferences-advanced-enable-bidi-ui =
-    .label = 启用双向文字编辑应用
+preferences-locate-library-lookup-intro = 文库检索可以使用你的文库的OpenURL解析器在线查找一个资源。
+preferences-locate-resolver = 解析器
+preferences-locate-base-url = 基础URL
+
+
+preferences-styleManager-delete-button =
+    .tooltiptext = 删除选中的样式
+    .label = { $label }
+preferences-styleManager-add-button =
+    .tooltiptext = 从文件添加样式
+    .label = { $label }
 preferences-quickCopy-plus =
     .aria-label = { general-add }
     .label = { $label }
 preferences-quickCopy-minus =
     .aria-label = { general-remove }
     .label = { $label }
-preferences-locate-resolver = 解析器
-preferences-locate-base-url = 基础 URL
+
+preferences-advanced-language-and-region-title = 语言和区域
+preferences-advanced-enable-bidi-ui =
+    .label = 启用双向文本编辑应用
