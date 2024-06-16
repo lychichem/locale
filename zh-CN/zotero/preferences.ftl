@@ -56,6 +56,8 @@ preferences-quickCopy-minus =
     .aria-label = { general-remove }
     .label = { $label }
 
+preferences-advanced-enable-local-api =
+    .label = 允许本机上的其他应用与 { -app-name } 通讯
 preferences-advanced-language-and-region-title = 语言和区域
 preferences-advanced-enable-bidi-ui =
     .label = 启用双向文本编辑应用
