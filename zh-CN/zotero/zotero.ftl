@@ -10,6 +10,7 @@ general-add = 添加
 general-remind-me-later = 稍后提醒我
 general-choose-file = 选择文件…
 general-open-settings = 打开设置
+general-help=帮助
 
 menu-file-show-in-finder =
     .label = 在Finder中显示文件
@@ -257,6 +258,16 @@ rtfScan-complete-page =
 
 rtfScan-complete-page-description = 文档处理完成, 请确保格式正确。
 
+runJS-title = 运行 JavaScript
+runJS-editor-label = 代码：
+runJS-run = 运行
+runJS-help = { general-help }
+runJS-result = {
+    $type ->
+        [async] 返回值：
+        *[other] 结果：
+}
+runJS-run-async = 作为异步函数运行
 
 bibliography-style-label = 引文样式：
 bibliography-locale-label = 语言：
@@ -431,10 +442,6 @@ sidenav-tags =
     .tooltiptext = { pane-tags }
 sidenav-related =
     .tooltiptext = { pane-related }
-sidenav-collapse =
-    .tooltiptext = 折叠侧栏
-sidenav-expand =
-    .tooltiptext = 展开侧栏
 
 pin-section =
     .label = 固定此部分
@@ -496,7 +503,6 @@ quickformat-aria-input = 输入以搜索要在此引用中包含的条目。按�
 quickformat-aria-item = 按下{ return-or-enter }来添加此条目到引用中。按下Tab来返回搜索框。
 quickformat-accept = 
     .tooltiptext = 保存对此引用的更改
-
 quickformat-locator-type =
     .aria-label = 检索器类型
 quickformat-locator-value =  检索器
@@ -524,6 +530,25 @@ item-pane-header-bibEntry =
     .label = 书目条目
 item-pane-header-more-options =
     .label = 更多选项
+
+item-pane-message-items-selected = { $count ->
+                                             [one] 选中了 { $count } 个条目
+                                            *[other] 选中了 { $count } 个条目
+                                    }
+item-pane-message-collections-selected = { $count ->
+                                             [one] 选中了 { $count } 个分类
+                                            *[other] 选中了 { $count } 个分类
+                                         }
+item-pane-message-searches-selected = { $count ->
+                                          [one] 选中了 { $count } 个搜索
+                                         *[other] 选中了 { $count } 个搜索
+                                      }
+item-pane-message-objects-selected = { $count ->
+                                          [one] 选中了 { $count } 个对象
+                                         *[other] 选中了 { $count } 个对象
+                                     }
+
+
 
 
 architecture-win32-warning-message = { -app-name } 正以32位模式运行于64位版Windows上。 { -app-name } 在64位模式下将有更高效率。

@@ -39,11 +39,11 @@ preferences-item-pane-header-locale = Header Language:
 preferences-item-pane-header-missing-style = Missing style: <{ $shortName }>
 
 preferences-locate-library-lookup-intro = Library Lookup can find a resource online using your library’s OpenURL resolver.
-preferences-locate-resolver = Resolver
-preferences-locate-base-url = Base URL
+preferences-locate-resolver = Resolver:
+preferences-locate-base-url = Base URL:
 
 preferences-quickCopy-minus =
-    .aria-label = { general-minus }
+    .aria-label = { general-remove }
     .label = { $label }
 preferences-quickCopy-plus =
     .aria-label = { general-add }

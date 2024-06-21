@@ -39,8 +39,8 @@ preferences-item-pane-header-locale = 语言标题:
 preferences-item-pane-header-missing-style = 缺少样式： <{ $shortName }>
 
 preferences-locate-library-lookup-intro = 文库检索可以使用你的文库的OpenURL解析器在线查找一个资源。
-preferences-locate-resolver = 解析器
-preferences-locate-base-url = 基础URL
+preferences-locate-resolver = 解析器：
+preferences-locate-base-url = 基础URL：
 
 
 preferences-styleManager-delete-button =
