@@ -24,6 +24,8 @@ preferences-reader-open-snapshots-using = 打开快照使用
 preferences-reader-open-in-new-window =
     .label = 在新窗口而非标签页中打开
 preferences-reader-ebook-font = 电子书字体：
+preferences-reader-ebook-hyphenate =
+    .label = 启用自动连字
 
 preferences-color-scheme = 颜色主题：
 preferences-color-scheme-auto =

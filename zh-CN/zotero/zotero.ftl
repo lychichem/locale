@@ -269,14 +269,65 @@ runJS-result = {
 }
 runJS-run-async = 作为异步函数运行
 
+bibliography-window =
+    .title = { -app-name } - 创建引文/书目
 bibliography-style-label = 引文样式：
 bibliography-locale-label = 语言：
+bibliography-displayAs-label = 显示引文为：
+bibliography-advancedOptions-label = 高级选项
+bibliography-outputMode-label = 输出模式：
+bibliography-outputMode-citations =
+    .label = {
+        $type ->
+            [citation] 引文
+            [note] 注释
+            *[other] 引文
+    }
+bibliography-outputMode-bibliography =
+    .label = 书目
+bibliography-outputMethod-label = 输出模式：
+bibliography-outputMethod-saveAsRTF =
+    .label = 保存为 RTF
+bibliography-outputMethod-saveAsHTML =
+    .label = 保存为 HTML
+bibliography-outputMethod-copyToClipboard =
+    .label = 复制到剪贴板
+bibliography-outputMethod-print =
+    .label = 打印
+bibliography-manageStyles-label = 管理样式…
+
+
+integration-docPrefs-window =
+    .title = { -app-name } - 文档属性
+integration-addEditCitation-window =
+    .title = { -app-name } - 添加/编辑引文
+integration-editBibliography-window =
+    .title = { -app-name } - 编辑书目
+integration-quickFormatDialog-window =
+    .title = { -app-name } - 快速格式化引文
 
 integration-prefs-displayAs-label = 显示引文为：
 integration-prefs-footnotes = 
     .label = 脚注
 integration-prefs-endnotes =
     .label = 尾注
+integration-prefs-bookmarks =
+    .label = 存储引文为书签
+integration-prefs-bookmarks-description = 书签可以在 Word 和 LibreOffice 间共享，但如果意外编辑可能导致错误并不能被插入到脚注中。
+integration-prefs-bookmarks-formatNotice = {
+    $show ->
+        [true] 文档必须被保存为 .doc 或 .docx.
+        *[other] {""}
+}
+integration-prefs-automaticCitationUpdates =
+    .label = 自动更新引文
+    .tooltip = 文档中含有挂起的更新的引文将被高亮
+integration-prefs-automaticCitationUpdates-description = 禁用更新可以加速在大文件中插入引文。点击刷新以手动更新引文。
+integration-prefs-automaticJournalAbbeviations =
+    .label = 使用 MEDLINE 期刊缩写
+integration-prefs-automaticJournalAbbeviations-description = “期刊缩写” 域将被忽略。
+integration-prefs-exportDocument =
+    .label = 切换到其他文字处理器…
 
 
 publications-intro-page =
